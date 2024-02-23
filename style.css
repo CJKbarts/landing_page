@@ -53,3 +53,55 @@ body {
 .footer {
     padding: 25px;
 }
+
+/* Hero/Description Section */
+
+.description-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    gap: 20px;
+}
+
+.info {
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    gap: 10px;
+}
+
+.image-slot {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: #6d747d;
+}
+
+.hero-text {
+    color: #f9f8fa;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882f6;
+    border: 0;
+    width: 100px;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bolder;
+}
