@@ -105,3 +105,38 @@ button {
     padding: 5px;
     font-weight: bolder;
 }
+
+/* Information Section */
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.cards {
+    display: flex;
+    width: 900px;
+    color: #1f2937;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 170px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.box {
+    height: 175px;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
